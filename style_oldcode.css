@@ -1,0 +1,120 @@
+body {
+    width: 960px;
+    background-image: url("/assets/let-there-be-sun.jpg");
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+
+}
+
+h2 {
+    text-align: left;
+    color: #4aaaa5;
+
+}
+
+p {
+    text-align: center;
+}
+
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+
+a {
+    padding: 10px;
+
+}
+
+    .header {
+        padding: 20px;
+        background: white;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5;
+        position: relative;
+        /* width: 100%; */
+        
+    }
+    
+    .navbar {
+        float: right;
+        display: inline-block;
+        
+    }
+
+        .main {
+            width: 960px;
+            text-align: center;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #666666;
+            color: white;
+            text-align: center;
+            border-top: 8px solid #4aaaa5;
+
+        }
+
+        .aboutme {
+            border: 1px;
+            border-color: black;
+            
+            
+        }
+
+        /* contact form */
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: block;
+        
+    }
+
+    input[type=submit]{
+        background-color: white;
+        color: black;
+        padding: 12px 20px;
+        border-radius: 4px;
+        border-color: black;
+        cursor: pointer;
+    
+    }
+
+    input[type=submit]:hover {
+        background-color: #4aaaa5;
+    }
+
+    .container {
+        border-radius: 5px;
+        margin: 20px;
+        padding: 20px;
+        float: center;
+        color: black;
+        background-color: white;
+        
+    }
+    /* end contact form */
