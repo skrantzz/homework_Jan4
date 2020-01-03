@@ -1,7 +1,12 @@
+
+
 body {
   font-family: "Arial", "Helvetica", sans-serif;
   background-image: url("../images/let-there-be-sun.png");
-  margin: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -70,17 +75,18 @@ p {
 
 .footer {
   position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   padding: 20px;
   background-color: #666666;
   color: white;
   text-align: center;
   border-top: 8px solid #e4d682;
+  flex: 0 0 50px;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
-img {
+.bioimg {
   width: 31%;
   float: left;
   margin: 20px;
@@ -125,10 +131,31 @@ input[for="message"] {
   padding: 140px;
 }
 
-.container {
+.aboutme {
   border-radius: 5px;
   margin-left: 20%;
   margin-right: 20%;
   background-color: white;
   width: 60%;
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.pictures {
+  padding: 0px;
+  border-radius: 20px;
+  float: left;
+  margin: 10px;
+  margin-left: 80px;
+  /* margin-bottom: 10px; */
+  transition: 0.8s;
+}
+
+.pictures:hover {
+  transform: scale(1.1);
+}
+
+.img { max-width: 100%; height: auto; }
