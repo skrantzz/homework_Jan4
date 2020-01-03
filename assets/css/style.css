@@ -21,6 +21,7 @@ nav,
 section {
   width: 960px;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 h1 {
@@ -98,6 +99,7 @@ p {
 .content {
   background: white;
   padding: 20px;
+  
 }
 
 
